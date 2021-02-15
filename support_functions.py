@@ -168,7 +168,7 @@ def adjacent_qubits(control_indices, target_indices, gate_name):
     diff_target = [t - s for s, t in zip(target_indices, target_indices[1:])]
     if any(x != diff_value for x in diff_target):
         if gate_name == 'swap':
-            # For SWAP, the order of target or control doesn't matter
+            # For SWAP, the order of targets doesn't matter
             if any(x != -diff_value for x in diff_target):
                 return False
         else:
