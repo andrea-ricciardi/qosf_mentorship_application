@@ -1,6 +1,6 @@
 # qosf_mentorship_application
 
-Hey,
+Hello!
 
 This repository contains the screening task submission for the QOSF mentorship program.
 
@@ -19,7 +19,7 @@ q_0 ------ U3 -------*
 q_1 -----------------O
 ```
 
-On my computer, the circuit runs smoothly up to TODO qubits, then I start to see some performance issues.
+On my computer, the circuit runs smoothly up to 13 qubits, it crashes at 14.
 
 I will now go through the structure of the program, then I will explain each file one by one.
 
